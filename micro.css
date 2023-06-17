@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+  
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        color: #000;
+        background-color: #fff;
+
+
+    }
+    a{
+        color: #262626;
+        text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .continer{
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+       
+
+    }
+
+h4{
+    margin-top: 35px;
+    font-size: 35px;
+}
+    /*nav*/
+
+
+
+    .main-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px ;
+        padding: 20px 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .main-nav .logo{
+        width: 110px;
+    }
+    .main-nav ul{
+        display: flex;
+    }
+    .main-nav ul li{
+        padding: 0 10px;
+
+    }
+    .main-nav ul li a{
+        padding-bottom: 2px;
+    }
+    .main-nav ul li a:hover{
+       border-bottom: 2px solid #262626;
+    }
+    .main-nav ul.main-menu{
+        flex: 1;
+        margin-left: 20px;
+    }
+    .btn{
+        display: inline-block;
+        border: 0;
+        font-weight: bold;
+        padding: 10px 20px;
+        background-color: #1014e6;
+       color:#fff ;
+        font-size: 15px;
+    } 
+.btn:hover{
+    opacity: 0.9;
+}
+
+
+/*showcase*/
+
+
+
+.showcase{
+    width: 100%;
+    height: 400px;
+    background: url(/img/Highlight-Test-Surface-Pro-9-Platinum-Attract\ VP4-1399x600_4_11zon.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+   padding-left: 80px;
+        
+}
+.show-case {
+    background-color: #fff;
+    padding: 12px;
+}
+.show-case a{
+    margin-left: 70px;
+}
+
+
+/*body icon*/
+
+
+.bodyicon{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.bodyicon a{
+    color: #1014e6;
+
+    padding-left: 220px;
+    align-items: center;
+    
+}
+.imgic{
+    margin-left: 50px;
+}
+.bodyicon h3:active{
+    
+  border: 3px dashed  #1014e6 ;
+    
+}
+
+/*-home cart--*/
+
+
+.homecart{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.homecart image{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.homecart h3{
+    margin-bottom: 5px;
+}
+.homecart a{
+display: inline-block;
+margin-top: 17px;
+color: #1014e6;
+font-weight: bold;
+}
+.homecart p{
+    margin-top: 15px;
+}
+
+
+/*xbox*/
+
+.xbox{
+    width: 100%;
+    height: 350px;
+    background: url(/img/gldn-2.jpg) no-repeat center center/cover;
+}
+.xbox .content{
+    width: 40%;
+    padding: 50px 0 0 30px;
+    color: #fff;
+
+}
+.xbox p{
+    margin: 10px 20px 20px;
+}
+
+/*carbon*/
+
+.carbon{
+    width: 100%;
+    height: 350px;
+    background: url(/img/Highlight-Microsoft-Make-PrideFY23\ VP4-1260x600_3_11zon.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+   padding-left: 80px;
+  
+
+}
+ .carbon .content1{
+   
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px;
+    background-color: #fff;
+}
+.carbon a{
+    margin-left: 70px;
+}
+.carbon p{
+    margin: 15px;
+}
+
+/* flow*/
+.flow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0 10px;
+}
+ .flow a:active{
+    border: 3px dashed rgb(27, 16, 189);
+}
+.flow *{
+    margin-right: 10px;
+}
+
+/* link*/
+
+.link{
+    width: 100%;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    margin-left: ;
+  
+}
+.link li{
+    line-height: 30px;
+}
+.link-inner{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+
+/*footer*/
+
+
+footer{
+    width: 100%;
+    max-width: 1100px;
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 10px;
+    padding: 20px 0;
+  
+}
+footer-inner{
+    max-width: 1100px;
+    margin-top: 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer div{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+footer div li{
+    margin-right: 20px;
+    margin-bottom:30px ;
+}
+footer div ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer div i{
+    margin-right: 10px;
+  
+}
+@media  (max-width: 700px) {
+    .main-nav ul.main-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color:rgba(224, 240, 234, 0.637);
+        width: 120px;
+        height: 100%;
+        border-right:1px solid #ccc ;
+        border-bottom:1px solid #ccc ;
+        padding: 30px;
+        
+    }
+
+ 
+    .main-nav ul.main-menu li{
+        padding: 10px;
+        border-bottom: 1px solid #e97b7b;
+        font-size: 15px;
+        
+    }
+    .bodyicon{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .homecart{
+        grid-template-columns: repeat(2,1fr);
+        width: 50%;
+    }
+    .xbox .content p{
+        display: none;
+    }
+    .xbox .content h2{
+        margin-bottom: 20px;
+    }
+    .carbon .content {
+width: 85%;
+    }
+    .show-case{
+       
+            width: 85%;
+                
+    }
+.showcase pre{
+    display: none;
+}
+.btn{
+    font-size: 8px;
+    
+}
+  
+    .link {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+@media  (max-width: 500px){
+.homecart{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    
+}
+.bodyicon{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+
+}
+}
+    
+
